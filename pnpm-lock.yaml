@@ -11,6 +11,9 @@ importers:
       '@base-ui/react':
         specifier: ^1.9.0
         version: 1.9.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+      border-beam:
+        specifier: ^1.4.1
+        version: 1.4.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -35,6 +38,9 @@ importers:
       shadcn:
         specifier: ^4.23.0
         version: 4.23.0
+      thinking-orbs:
+        specifier: ^0.3.2
+        version: 0.3.2(react@19.3.1)
       tw-animate-css:
         specifier: ^1.4.0
         version: 1.4.0
@@ -1009,6 +1015,12 @@ packages:
     resolution: {integrity: sha512-GNk8KX52CHqeNKGk8+7tZnQab/2k1t/BgrUHPKNdijzpEhF1saPQZHVKb6m5loSAxB39gyrTYw34Qf9CQ3u1qQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+
+  border-beam@1.4.1:
+    resolution: {integrity: sha512-YyugmKjrhkg1PBC1ZKX7JvFo/zYzha6NXOq24VWrnvBYmDRvGCgFS9oxZoKJ+oS9Kn436l1etYGlAdGiWK+3ag==}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
 
   brace-expansion@1.1.21:
     resolution: {integrity: sha512-9zeA+KLZNNzglF2TPKRQEDyx6Yby7daAkuy8MiPzpXPsYDWi/DRM8jmwUDxokQjYqBpv5DgPiwD4h4ZZSy1Ujw==}
@@ -2580,6 +2592,11 @@ packages:
     resolution: {integrity: sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==}
     engines: {node: '>=6'}
 
+  thinking-orbs@0.3.2:
+    resolution: {integrity: sha512-QZFeBaPEzqhjiZoXy961EvDgaXk2WgXacF3Rbz+Sj5IfzDzBvTC86vdREUHniBffYibJFKSwbfllxLUdI/Xv6g==}
+    peerDependencies:
+      react: '>=18.0.0'
+
   tiny-invariant@1.3.3:
     resolution: {integrity: sha512-+FbBPE1o9QAYvviau/qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn/Szqctz2bU/oYeKd9/z5BL+PVg==}
 
@@ -3672,6 +3689,11 @@ snapshots:
   balanced-match@4.0.4: {}
 
   baseline-browser-mapping@2.11.35: {}
+
+  border-beam@1.4.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
+    dependencies:
+      react: 19.3.1
+      react-dom: 19.3.1(react@19.3.1)
 
   brace-expansion@1.1.21:
     dependencies:
@@ -5357,6 +5379,10 @@ snapshots:
   tailwindcss@4.3.4: {}
 
   tapable@2.3.3: {}
+
+  thinking-orbs@0.3.2(react@19.3.1):
+    dependencies:
+      react: 19.3.1
 
   tiny-invariant@1.3.3: {}
 
